@@ -1,0 +1,492 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="kullanıcı.master.cs" Inherits="OnlineMagaza.kullanıcı" %>
+
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <style>
+
+        .fixed-div {
+    position: fixed; /* Divin sabit durmasını sağlar */
+    top: 20px; /* Üstten boşluk */
+    right: 20px; /* Sağdan boşluk */
+    width: 300px; /* Genişlik */
+    height: 200px; /* Yükseklik */
+    background-color: rgba(255, 255, 255, 0.9); /* Arka plan rengi */
+    border: 1px solid #ccc; /* Kenar rengi */
+    z-index: 1000; /* Diğer elemanların üstünde görünmesi için */
+}
+
+.container {
+    padding: 20px; /* Ana konteynır için boşluk */
+}
+        .auto-style2 {
+            width: 555px;
+            text-align: center;
+            background-colSor: black;
+            height: 40px;
+        }
+
+                
+
+        #scrollToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+            display: none;
+            background-color: #0094ff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #scrollToTop:hover {
+            background-color: #555;
+        }
+
+        .auto-style12 {
+
+            width: 1913px;
+            text-align: left;
+              position: fixed;
+        }
+
+        /* Yeni div için stil */
+        .new-content {
+    position: absolute; /* veya relative kullanabilirsin */
+    top: [yönetim butonunun altına gelecek şekilde bir değer]; /* Örneğin, '100px' gibi bir değer kullanabilirsin */
+    right: 120px; /* Sağdan mesafe ayarı */
+    width: 330px; /* İsteğe bağlı genişlik ayarı */
+    background-color: rgba(255, 255, 255, 0.8); /* Arka plan rengi (isteğe bağlı) */
+    padding: 10px; /* İç boşluk (isteğe bağlı) */
+    border: 1px solid #ccc; /* Kenar çizgisi (isteğe bağlı) */
+}
+        #subButtons {
+    margin-top: 5px; /* Alt butonlar için boşluk */
+}
+
+#subButtons a {
+    display: block; /* Her bir butonu ayrı satıra koy */
+    margin-bottom: 5px; /* Butonlar arası boşluk */
+}
+
+
+        /* Temizlik için clear: both */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .slider {
+            position: relative;
+            width: 700px;
+            height: 400px;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+
+        .slide-item {
+            width: 700px;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        /* Butonların konumları */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            font-size: 18px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .auto-style17 {
+            width: 1902px;
+            height: 1000px;
+            float: left;
+            margin-left: -37px;
+            margin-right:;
+            margin-top: 100;
+            margin-bottom: 0;
+            padding: 20px;
+            background-color: #FFFFFF;
+        }
+        vertical-slider {
+        display: flex;
+        flex-direction: column;
+        transition: transform 1s ease-in-out;
+    }
+
+    .slide {
+        height: 300px; /* Her slaytın yüksekliği */
+        width: 100%; /* Div'i tam olarak kaplasın */
+        display: flex;
+        justify-content: center; /* Resmi ortala */
+        align-items: center;
+    }
+
+    .slide-image {
+        width: 100%; /* Genişlik div'i kaplayacak şekilde */
+        height: 100%; /* Yükseklik div'i kaplayacak şekilde */
+        object-fit: cover; /* Resim boyutunu div'e uyarlar */
+    }
+         #clock {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            font-size: 30px;
+            color: black;
+            background-color: #ff0000;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #date {
+            position: fixed;
+            top: 60px;
+            right: 10px;
+            font-size: 25px;
+            color: black;
+            background-color: #FFFFFF;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+                
+        .auto-style24 {
+            text-decoration: underline;
+        }
+        
+        .auto-style27 {
+            width: 1876px;
+              background-color:#e0fada;
+            margin-right: 896px;
+             margin-top:-20px;
+                 z-index: 1000; /* Daha yüksek bir z-index değeri */
+
+        }
+        
+                
+        .auto-style29 {
+            width: 244px;
+        }
+    
+        
+        .auto-style30 {
+            height: 56px;
+            cursor: pointer;
+            width: 46px;
+        }
+    
+        
+        .auto-style31 {
+            color: #000000;
+        }
+        .auto-style32 {
+            background-color: #66FF33;
+        }
+    
+        
+        .auto-style33 {
+            width: 555px;
+            text-align: center;
+            background-colSor: black;
+            height: 40px;
+            font-family: "Segoe UI";
+            font-size: 22px;
+        }
+    
+        
+        </style>
+</head>
+
+<form id="form1" runat="server">
+   
+
+   
+    
+   <script>
+       function showTime() {
+           var date = new Date();
+           var h = date.getHours();
+           var m = date.getMinutes();
+           var s = date.getSeconds();
+
+           h = (h < 10) ? "0" + h : h;
+           m = (m < 10) ? "0" + m : m;
+           s = (s < 10) ? "0" + s : s;
+
+           var time = h + ":" + m + ":" + s;
+           document.getElementById("clock").innerText = time;
+
+           // Tarihi göster
+           var day = date.getDate();
+           var month = date.getMonth() + 1; // Ay 0'dan başlar
+           var year = date.getFullYear();
+           var currentDate = day + "/" + month + "/" + year;
+           document.getElementById("date").innerText = currentDate;
+
+           setTimeout(showTime, 1000);
+       }
+
+       showTime();
+   </script><!-- Menü ve Başlık Görselleri --><div class="auto-style12">
+            <div>
+        <table class="auto-style27">
+            <tr>           
+                <td class="auto-style29">
+    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://www.instagram.com/erichomestore/" Target="_blank">
+        <asp:Image ID="Image2" runat="server" Height="135px" ImageUrl="~/img/krm.png" Width="244px" CssClass="auto-style32" />
+    </asp:HyperLink>
+</td>
+                 
+                 <td class="auto-style2"><a href="Urunler.aspx"><span class="auto-style31"><strong>ÜRÜNLER</strong></span></a></td>
+                <td class="auto-style2"><a href="Siparisler.aspx"><span class="auto-style31"><strong>SİPARİŞLERİM</strong></span></a></td>
+                <td class="auto-style2"><a href="Hakkimizda.aspx"><span class="auto-style31"><strong>HAKKIMIZDA</strong></span></a></td>
+                <td class="auto-style2"><a href="Iletisim.aspx"><span class="auto-style31"><strong>İLETİŞİM</strong></span></a></td>
+                                <td class="auto-style2"><a href="Profil.aspx"><span class="auto-style31"><strong>PROFİLİM</strong></span></a></td>
+
+
+                <td class="auto-style2">
+                    <asp:ImageButton ID="btnGirisYap" runat="server" ImageUrl="~/img/euerr.png" 
+                                     Width="51px" Height="62px" OnClick="btnGirisYap_Click" 
+                                     AlternateText="Giriş Yap" />
+    <td class="auto-style2">
+    <a href="https://wa.me/905458306849" target="_blank">
+         <img src="img/wpn.jpg" alt="Sepet" onclick="$('#sepet').toggle();" class="auto-style30" />&nbsp;
+        <span class="auto-style31"><strong>DESTEK</strong></span>
+    </a>
+</td>
+       </td>
+                                <td class="auto-style2">
+                    <div id="cart" style="position: relative; display: flex; align-items: center;">
+    <img src="img/ser.png" alt="Sepet" onclick="$('#sepet').toggle();" class="auto-style30" />&nbsp;
+    <div id="sepet" style="display: none; max-height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background-color: white; position: absolute; z-index: 1000;">
+        <h2><strong>Sepetiniz</strong></h2>
+        <asp:Repeater ID="rptSepet" runat="server">
+            <ItemTemplate>
+                <%# Eval("UrunAdi") %> - <%# Eval("UrunFiyati", "{0:C}") %>
+                <asp:Button ID="btnSil" runat="server" Text="Sil" CommandArgument='<%# Eval("Index") %>' OnCommand="Sil_Click" />
+                <br />
+            </ItemTemplate>
+        </asp:Repeater>
+        <strong>
+            <asp:Label ID="lblToplamFiyat" runat="server" CssClass="auto-style24" />
+        </strong>
+        <asp:Label ID="lblMesaj" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
+        <br />
+        <asp:Button ID="btnSepetiSatinal" runat="server" Text="Sepeti Satın Al" OnClick="btnSepetiSatinal_Click" style="margin-top: 10px; padding: 5px 10px;" />
+    </div>
+</div>
+                                    </td>
+
+               
+            </tr>
+        </table>
+    </div>
+    </div>
+   
+    <!-- Menü -->
+    
+
+    <!-- Sol Menü İçerikleri -->
+ 
+
+        <div></div>
+        <div>
+        <div class="auto-style17"> <!-- Margin değeri değiştirildi -->
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <p>&nbsp;</p>
+    </asp:ContentPlaceHolder>
+</div>
+    </div>
+
+        <!-- Yeni Eklenen Div -->
+    <!-- Yeni Eklenen Div - Sağ Taraf -->
+
+    </div>
+
+
+    <script>
+
+        let cartItemCount = 0; // Sepetteki ürün sayısını tutacak değişken
+        let totalPrice = 0; // Sepetteki toplam fiyatı tutacak değişken
+
+        // Sepete ekleme işlemi
+        function addToCart(productName, productPrice) {
+            const sepet = document.getElementById('sepet');
+            const item = document.createElement('div');
+            item.classList.add('item'); // Her ürün için bir div oluştur
+            item.innerHTML = ${productName} - ${productPrice} <button onclick="removeFromCart(this)">Sil</button>;
+            sepet.appendChild(item);
+
+            // Ürün sayısını ve toplam fiyatı güncelle
+            cartItemCount++;
+            totalPrice += parseFloat(productPrice.replace(/[^\d.-]/g, '')); // Fiyatı sayıya çevir
+            updateCartCount();
+            updateTotalPrice();
+        }
+
+        // Sepetten silme işlemi
+        function removeFromCart(button) {
+            const item = button.parentElement; // Butonun ait olduğu div'i al
+            const priceText = item.innerHTML.match(/-\s*\d+(\.\d{1,2})?/)[0]; // Fiyati bul
+            const itemPrice = parseFloat(priceText.replace(/[^\d.-]/g, '')); // Fiyatı sayıya çevir
+            totalPrice -= itemPrice; // Toplam fiyatı güncelle
+            item.remove(); // Div'i kaldır
+
+            // Ürün sayısını güncelle
+            cartItemCount--;
+            updateCartCount();
+            updateTotalPrice();
+        }
+
+        // Ürün sayısını güncelleme
+        function updateCartCount() {
+            const productCount = document.getElementById('productCount');
+            productCount.innerText = cartItemCount; // Ürün sayısını güncelle
+        }
+
+        // Toplam fiyatı güncelleme
+        function updateTotalPrice() {
+            const totalLabel = document.getElementById('lblToplamFiyat');
+            totalLabel.innerText = Toplam: ${totalPrice.toFixed(2)} TL; // Toplam fiyatı güncelle
+        }
+
+
+
+        const slider = document.querySelector('.vertical-slider');
+        const slides = document.querySelectorAll('.slide');
+        let index = 0;
+
+        function slideImages() {
+            index++;
+            if (index >= slides.length) {
+                index = 0; // Son slayttan sonra başa dön
+            }
+            slider.style.transform = translateY(-${index * 300}px); // Her 300px kaydır, çünkü her slaytın yüksekliği 300px
+        }
+
+        setInterval(slideImages, 3000); // 3 saniyede bir slayt geçişi
+    </script>
+        <br />
+
+
+    
+    <br />
+    <br />
+
+</div>
+    
+
+
+        <!-- Temizlik -->
+        <div class="clearfix"></div>
+        <!-- Yukarı çık butonu -->
+      
+    <button id="scrollToTop"> BAŞA DÖN ↑</button>
+        <script>
+        let index = 0;
+
+        function slideImages() {
+            index++;
+            if (index >= slides.length) {
+                index = 0; // Son slayttan sonra başa dön
+            }
+            slider.style.transform = translateY(-${index * 300}px); // Her 300px kaydır, çünkü her slaytın yüksekliği 300px
+        }
+
+        setInterval(slideImages, 3000); // 3 saniyede bir slayt geçişi
+    </script>
+
+</div>
+
+        <!-- Temizlik -->
+        <div class="clearfix"></div>
+        <!-- Yukarı çık butonu -->
+        <button id="scrollToTop">↑</button>
+  
+        <script>
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                var button = document.getElementById("scrollToTop");
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            }
+
+            document.getElementById("scrollToTop").addEventListener("click", function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    
+            });
+        </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const anasayfaButton = document.getElementById('anasayfaButton');
+            const subButtons = document.getElementById('subButtons');
+
+            anasayfaButton.addEventListener('click', function (event) {
+                event.preventDefault(); // Varsayılan davranışı engelle
+                // Alt butonların görünürlüğünü değiştir
+                subButtons.style.display = subButtons.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+        $(document).ready(function () {
+            $("#subButtons").hide(); // Sayfa yüklendiğinde butonları gizle
+
+            $("a[href='AnaSayfa.aspx']").click(function (e) {
+                e.preventDefault(); // Bağlantının varsayılan davranışını engelle
+
+                // Butonları göster
+                $("#subButtons").toggle(); // Alt butonların görünürlüğünü değiştir
+            });
+        });
+
+    </script>
+    <div></div>
+    <div></div>
+    <!-- Yeni Eklenen Dikey Div - Sağ Taraf -->
+<div class="map-container" style="position: absolute; top: 300px; right: 10px; width: 180px; height: 400px; background-color: rgba(255, 255, 255, 0.9); border: 1px solid #ccc; z-index: 1;">
+    <h3 style="text-align: center;">İş Yerinin Konumu</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.4384746618193!2d-29.2!3d40.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88b36a3d4a31d0ff%3A0x580c86e2c7d74bd0!2sMahmudiye%20Mahallesi%2C%20K%C4%B1smet%20Sokak%2C%20No%3A14%2C%20Ineg%C3%B6l!5e0!3m2!1str!2str!4v1692722749568!5m2!1str!2str" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+
+
+
+</form>

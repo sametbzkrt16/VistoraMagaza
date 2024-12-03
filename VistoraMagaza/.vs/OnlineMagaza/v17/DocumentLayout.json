@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|c:\\users\\systemadmin\\desktop\\onlinemagaza\\kullan\u0131c\u0131.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:kullan\u0131c\u0131.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\iletisim.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:iletisim.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\urunler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:urunler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\urunler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:urunler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\hakkimizda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:hakkimizda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\kullan\u0131c\u0131.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:kullan\u0131c\u0131.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\giris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:giris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\profil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:profil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\adminpanel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:adminpanel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\adminpanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:adminpanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\kayit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:kayit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\siparisler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:siparisler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\admingiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{30B18B19-D790-4ED0-91A8-3E89BD92DCB3}|OnlineMagaza.csproj|solutionrelative:admingiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "profil.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\profil.aspx",
+              "RelativeDocumentMoniker": "profil.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\profil.aspx",
+              "RelativeToolTip": "profil.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:51:06.437Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kullan\u0131c\u0131.Master",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\kullan\u0131c\u0131.Master",
+              "RelativeDocumentMoniker": "kullan\u0131c\u0131.Master",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\kullan\u0131c\u0131.Master",
+              "RelativeToolTip": "kullan\u0131c\u0131.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-01T07:52:33.229Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hakkimizda.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Hakkimizda.aspx",
+              "RelativeDocumentMoniker": "Hakkimizda.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Hakkimizda.aspx",
+              "RelativeToolTip": "Hakkimizda.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:50:56.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Iletisim.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Iletisim.aspx",
+              "RelativeDocumentMoniker": "Iletisim.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Iletisim.aspx",
+              "RelativeToolTip": "Iletisim.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:50:57.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "giris.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\giris.aspx",
+              "RelativeDocumentMoniker": "giris.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\giris.aspx",
+              "RelativeToolTip": "giris.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:50:54.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Urunler.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Urunler.aspx.cs",
+              "RelativeDocumentMoniker": "Urunler.aspx.cs",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Urunler.aspx.cs",
+              "RelativeToolTip": "Urunler.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:51:19.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "kullan\u0131c\u0131.Master.cs",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\kullan\u0131c\u0131.Master.cs",
+              "RelativeDocumentMoniker": "kullan\u0131c\u0131.Master.cs",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\kullan\u0131c\u0131.Master.cs",
+              "RelativeToolTip": "kullan\u0131c\u0131.Master.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:09:21.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Urunler.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Urunler.aspx",
+              "RelativeDocumentMoniker": "Urunler.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Urunler.aspx",
+              "RelativeToolTip": "Urunler.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:51:11.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "kayit.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\kayit.aspx",
+              "RelativeDocumentMoniker": "kayit.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\kayit.aspx",
+              "RelativeToolTip": "kayit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:51:00.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminPanel.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\AdminPanel.aspx.cs",
+              "RelativeDocumentMoniker": "AdminPanel.aspx.cs",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\AdminPanel.aspx.cs",
+              "RelativeToolTip": "AdminPanel.aspx.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAswLwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T07:07:07.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-20T12:05:43.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminPanel.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\AdminPanel.aspx",
+              "RelativeDocumentMoniker": "AdminPanel.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\AdminPanel.aspx",
+              "RelativeToolTip": "AdminPanel.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:50:48.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Siparisler.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Siparisler.aspx",
+              "RelativeDocumentMoniker": "Siparisler.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\Siparisler.aspx",
+              "RelativeToolTip": "Siparisler.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:51:05.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminGiris.aspx",
+              "DocumentMoniker": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\AdminGiris.aspx",
+              "RelativeDocumentMoniker": "AdminGiris.aspx",
+              "ToolTip": "C:\\Users\\systemadmin\\Desktop\\OnlineMagaza\\AdminGiris.aspx",
+              "RelativeToolTip": "AdminGiris.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-11T06:50:46.406Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

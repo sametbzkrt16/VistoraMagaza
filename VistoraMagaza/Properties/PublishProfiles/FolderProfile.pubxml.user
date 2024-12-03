@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\systemadmin\Desktop\Samet Bozkurt</_PublishTargetUrl>
+    <History>True|2024-11-08T07:35:41.1054639Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdminGiris.aspx">
+      <publishTime>10/25/2024 14:24:07</publishTime>
+    </File>
+    <File Include="AdminPanel.aspx">
+      <publishTime>11/01/2024 10:15:21</publishTime>
+    </File>
+    <File Include="Berjersss/berjer2.jpg">
+      <publishTime>10/24/2024 11:01:45</publishTime>
+    </File>
+    <File Include="Berjersss/gizaberjer.jpg">
+      <publishTime>10/24/2024 11:01:45</publishTime>
+    </File>
+    <File Include="Berjersss/iconberjer.jpg">
+      <publishTime>10/24/2024 11:01:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/11/2022 19:09:46</publishTime>
+    </File>
+    <File Include="bin/OnlineMagaza.dll">
+      <publishTime>11/08/2024 10:35:34</publishTime>
+    </File>
+    <File Include="bin/OnlineMagaza.pdb">
+      <publishTime>11/08/2024 10:35:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/27/2022 23:41:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/27/2022 23:42:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/27/2022 23:42:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>05/27/2022 23:42:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>05/27/2022 23:42:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>05/27/2022 23:42:50</publishTime>
+    </File>
+    <File Include="ches/angech.jpg">
+      <publishTime>10/24/2024 11:01:59</publishTime>
+    </File>
+    <File Include="ches/ches.jpg">
+      <publishTime>10/24/2024 11:01:59</publishTime>
+    </File>
+    <File Include="ches/chesst.jpg">
+      <publishTime>10/24/2024 11:01:59</publishTime>
+    </File>
+    <File Include="Favoriler.aspx">
+      <publishTime>10/31/2024 10:59:44</publishTime>
+    </File>
+    <File Include="giris.aspx">
+      <publishTime>11/04/2024 10:25:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/24/2024 10:26:59</publishTime>
+    </File>
+    <File Include="Hakkimizda.aspx">
+      <publishTime>11/04/2024 13:39:17</publishTime>
+    </File>
+    <File Include="Iletisim.aspx">
+      <publishTime>11/01/2024 15:39:13</publishTime>
+    </File>
+    <File Include="img/Adsız tasarım %281%29.png">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/Adsız tasarım %282%29.png">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/Adsız tasarım.png">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/armutatalanta.jpg">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/atalanta.jpg">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/dekor.png">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/ER.png">
+      <publishTime>11/01/2024 12:38:27</publishTime>
+    </File>
+    <File Include="img/eri.png">
+      <publishTime>11/01/2024 11:45:32</publishTime>
+    </File>
+    <File Include="img/eric.png">
+      <publishTime>10/31/2024 16:36:02</publishTime>
+    </File>
+    <File Include="img/EricHome.png">
+      <publishTime>10/25/2024 11:18:09</publishTime>
+    </File>
+    <File Include="img/euerr.png">
+      <publishTime>11/01/2024 12:46:55</publishTime>
+    </File>
+    <File Include="img/exa.jpg">
+      <publishTime>10/31/2024 15:23:27</publishTime>
+    </File>
+    <File Include="img/favicon-16x16.png">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/krm.png">
+      <publishTime>11/01/2024 16:03:13</publishTime>
+    </File>
+    <File Include="img/krmm.png">
+      <publishTime>11/01/2024 16:09:03</publishTime>
+    </File>
+    <File Include="img/kyt.jpg">
+      <publishTime>10/31/2024 15:24:42</publishTime>
+    </File>
+    <File Include="img/KYTTT.png">
+      <publishTime>11/01/2024 14:49:20</publishTime>
+    </File>
+    <File Include="img/köşeatalanta.jpg">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/log.jpg">
+      <publishTime>10/25/2024 11:51:29</publishTime>
+    </File>
+    <File Include="img/MYDEKOR.png">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/sep.png">
+      <publishTime>11/01/2024 10:55:51</publishTime>
+    </File>
+    <File Include="img/sepet.png">
+      <publishTime>10/24/2024 11:02:14</publishTime>
+    </File>
+    <File Include="img/ser.png">
+      <publishTime>11/01/2024 12:47:15</publishTime>
+    </File>
+    <File Include="img/use.png">
+      <publishTime>10/30/2024 14:14:36</publishTime>
+    </File>
+    <File Include="img/user.png">
+      <publishTime>10/30/2024 13:59:28</publishTime>
+    </File>
+    <File Include="img/wpn.jpg">
+      <publishTime>11/01/2024 14:26:07</publishTime>
+    </File>
+    <File Include="img/yesil.jpeg">
+      <publishTime>11/01/2024 14:54:14</publishTime>
+    </File>
+    <File Include="kanepe/knp.jpg">
+      <publishTime>10/24/2024 11:02:27</publishTime>
+    </File>
+    <File Include="kanepe/knpberlin.jpg">
+      <publishTime>10/24/2024 11:02:27</publishTime>
+    </File>
+    <File Include="kanepe/monocok.jpg">
+      <publishTime>10/24/2024 11:02:27</publishTime>
+    </File>
+    <File Include="kayit.aspx">
+      <publishTime>11/01/2024 14:56:32</publishTime>
+    </File>
+    <File Include="kullanıcı.Master">
+      <publishTime>11/04/2024 13:03:03</publishTime>
+    </File>
+    <File Include="köşe/ibikö.jpg">
+      <publishTime>10/24/2024 11:02:33</publishTime>
+    </File>
+    <File Include="köşe/koş.jpg">
+      <publishTime>10/24/2024 11:02:33</publishTime>
+    </File>
+    <File Include="köşe/köşee.jpg">
+      <publishTime>10/24/2024 11:02:33</publishTime>
+    </File>
+    <File Include="OdemeSayfasi.aspx">
+      <publishTime>10/31/2024 16:59:33</publishTime>
+    </File>
+    <File Include="profil.aspx">
+      <publishTime>10/31/2024 15:58:10</publishTime>
+    </File>
+    <File Include="puf/alidapuf.webp">
+      <publishTime>10/24/2024 11:02:44</publishTime>
+    </File>
+    <File Include="puf/bencpuf.jpg">
+      <publishTime>10/24/2024 11:02:44</publishTime>
+    </File>
+    <File Include="puf/puffypuf.jpg">
+      <publishTime>10/24/2024 11:02:44</publishTime>
+    </File>
+    <File Include="puf/yuvchespuf.jpg">
+      <publishTime>10/24/2024 11:02:44</publishTime>
+    </File>
+    <File Include="Resimler/armutatalanta.jpg">
+      <publishTime>11/01/2024 10:36:17</publishTime>
+    </File>
+    <File Include="Resimler/gizaberjer.jpg">
+      <publishTime>10/31/2024 15:44:58</publishTime>
+    </File>
+    <File Include="Resimler/ibikö.jpg">
+      <publishTime>10/31/2024 10:23:56</publishTime>
+    </File>
+    <File Include="Resimler/köş.jpg">
+      <publishTime>11/01/2024 10:41:04</publishTime>
+    </File>
+    <File Include="Resimler/köşii.jpg">
+      <publishTime>10/31/2024 10:18:49</publishTime>
+    </File>
+    <File Include="Resimler/köşı.jpg">
+      <publishTime>10/31/2024 09:41:19</publishTime>
+    </File>
+    <File Include="Resimler/mauro-icardi-galatasaray-2023-24-1697921447-120077.jpeg">
+      <publishTime>10/31/2024 10:18:49</publishTime>
+    </File>
+    <File Include="Resimler/thumbs_b_c_9fc26f46696d6f32affa1e54c67a0219.jpg">
+      <publishTime>10/31/2024 10:18:49</publishTime>
+    </File>
+    <File Include="Resimler/yuvchespuf.jpg">
+      <publishTime>10/31/2024 10:23:56</publishTime>
+    </File>
+    <File Include="Siparisler.aspx">
+      <publishTime>11/01/2024 10:58:13</publishTime>
+    </File>
+    <File Include="StyleSheet1.css">
+      <publishTime>11/01/2024 15:35:43</publishTime>
+    </File>
+    <File Include="Urunler.aspx">
+      <publishTime>11/01/2024 14:46:41</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>10/24/2024 10:26:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2024 10:35:37</publishTime>
+    </File>
+    <File Include="yönetim.aspx">
+      <publishTime>10/24/2024 11:58:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,366 @@
+﻿a:link{
+    text-decoration:none;
+    font-size:22px;
+    font-family:'Segoe UI'  ;
+    font-style:normal;
+
+}
+a:hover{
+    font-size:26px;
+    color:#0094ff;
+}
+.slider {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide-item {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Butonların konumları */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+.about-container {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+.contact-container {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.social-media {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007bff;
+}
+
+    .social-media a {
+        text-decoration: none;
+        color: #007bff; /* Bağlantı rengi */
+    }
+
+        .social-media a:hover {
+            text-decoration: underline; /* Hover durumunda altını çizer */
+        }
+
+.slides {
+    display: flex; /* Slide item'ları yan yana dizmek için flex kullanıyoruz */
+    transition: transform 0.5s ease; /* Geçiş efektini ayarlıyoruz */
+}
+
+.slide-item {
+    display: flex; /* Resmi ve metni yan yana dizmek için flex kullanıyoruz */
+    align-items: center; /* Dikey ortalama */
+    min-width: 700px; /* Her slide'ın genişliği */
+    box-sizing: border-box; /* Padding ve border'ı genişlik hesaplamasına dahil et */
+}
+
+.slide-content {
+    display: flex; /* İçeriği yan yana dizmek için flex kullanıyoruz */
+    align-items: center; /* Dikey ortalama */
+}
+
+.slide-image {
+    width: 300px; /* Resmin genişliği */
+    height: auto; /* Yüksekliği otomatik ayarlıyoruz */
+    margin-right: 20px; /* Resim ile metin arasında boşluk */
+}
+
+.slide-caption {
+    font-size: 16px; /* Yazı boyutunu ayarlıyoruz */
+}
+
+#clock {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: #C0C0C0;
+    padding: 5px; /* İçeride boşluk */
+    border-radius: 5px; /* Kenarları yuvarlayalım */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+}
+
+#date {
+    position: fixed;
+    top: 40px; /* Saatin hemen altına yerleştiriyoruz */
+    right: 10px;
+    font-size: 20px; /* Font boyutu */
+    color: black; /* Yazı rengi */
+    background-color: #C0C0C0; /* Arka plan rengi */
+    padding: 5px; /* İçeride boşluk */
+    border-radius: 5px; /* Kenarları yuvarlayalım */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+}
+/* Aydınlık Mod */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Karanlık Mod */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+.sepet {
+    max-height: 200px; /* Sepet yüksekliği */
+    overflow-y: auto; /* Dikey kaydırma çubuğu */
+    border: 1px solid #ccc; /* Kenar çizgisi */
+    padding: 10px; /* İçerik boşluğu */
+    display: none; /* Başlangıçta gizli */
+}
+
+.btnToggle {
+    cursor: pointer; /* İşaretçi */
+    margin-bottom: 10px; /* Alt boşluk */
+}
+.sepet-container {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+    .sepet-container:hover {
+        transform: scale(1.1);
+    }
+.cart-logo {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.cart-panel {
+    display: none; /* İlk başta gizli */
+    position: fixed;
+    top: 160px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+.sepet-logo {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8; /* Arka plan rengi */
+    border: 1px solid #ddd; /* Kenar çizgisi */
+    border-radius: 10px; /* Köşe yuvarlama */
+    padding: 10px; /* İç boşluk */
+    margin: 10px; /* Dış boşluk */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    transition: transform 0.2s; /* Geçiş efekti */
+}
+
+    .sepet-logo:hover {
+        transform: scale(1.05); /* Hover efekti */
+    }
+
+    .sepet-logo img {
+        width: 30px; /* Logo boyutu */
+        height: 30px; /* Logo boyutu */
+        margin-right: 10px; /* Logo ve metin arasındaki boşluk */
+    }
+
+.toplam-fiyat {
+    font-weight: bold; /* Kalın yazı */
+}
+#cart img {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+    #cart img:hover {
+        transform: scale(1.1);
+    }
+#cart-icon {
+    position: relative;
+}
+
+#product-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: small;
+    display: none; /* Başlangıçta gizli */
+}
+/* Hata ve mesaj etiketleri */
+#lblMessage {
+    font-size: 14px;
+    color: green; /* Başarı mesajı rengi */
+}
+
+#lblError {
+    font-size: 14px;
+    color: red; /* Hata mesajı rengi */
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+#clock, #date {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.2s; /* Hover efekt için geçiş süresi */
+}
+
+    .footer-icon:hover {
+        transform: scale(1.1); /* Hover durumunda hafif büyüme */
+    }
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#clock, #date {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+#container {
+    position: relative;
+}
+
+#sepet {
+    /* Sepet kısmına ait stil ayarları */
+    width: 200px; /* Örnek genişlik */
+    height: 100px; /* Örnek yükseklik */
+    background-color: lightgray; /* Örnek arka plan rengi */
+}
+
+#harita {
+    position: absolute;
+    top: calc(100% + 200px); /* Sepet kısmının altında 200px mesafe */
+    right: 0; /* Sağ kenarda konumlandırma */
+    width: 100px; /* Genişlik */
+    height: 500px; /* Uzunluk */
+    background-color: lightblue; /* Örnek arka plan rengi */
+    overflow: hidden; /* Taşma durumunu gizle */
+    display: flex;
+    align-items: center; /* Yatay ortalama */
+    justify-content: center; /* Dikey ortalama */
+}
+.map-container {
+    position: relative;
+    width: 100px; /* Genişlik */
+    height: 500px; /* Uzunluk */
+    margin-top: 200px; /* Sepet kısmından uzaklık */
+    bottom: 100; /* Sayfanın en altına yerleştirmek için */
+}
